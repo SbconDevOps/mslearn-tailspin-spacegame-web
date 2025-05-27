@@ -44,7 +44,7 @@ steps:
   displayName: 'Restore project dependencies'
   inputs:
     command: 'restore'
-    projects: 'Tailspin.SpaceGame.Web/www/Tailspin.SpaceGame.Web.csproj'
+    projects: 'Tailspin.SpaceGame.Web/Tailspin.SpaceGame.Web.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - Release'
