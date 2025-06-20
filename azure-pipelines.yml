@@ -20,6 +20,10 @@ steps:
 - task: NuGetToolInstaller@0
   inputs:
     versionSpec: '5.9.1'
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.x'
+  displayName: 'Use Node.js 16'
 
 - script: |
     sudo apt-get update
